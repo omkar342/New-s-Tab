@@ -1,0 +1,16 @@
+{
+    "name":"New-s Tab",
+    "descripton": "It provides you the fresh news every time you open new tab.",
+    "manifest_version" : 2,
+    "version" : "0.1",
+    "chrome_url_overrides" : {
+        "newtab" : "newtab.html"
+    },
+    "browser_action":{
+        "default_icon":"new_tab.png"
+    },
+    "icons":{
+        "128" : "new_tab.png",
+        "64" : "new_tab.png"
+    }
+}
